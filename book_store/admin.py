@@ -3,10 +3,10 @@ from .models import Product
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ("name", "category", "price")  # Show these columns
-    search_fields = ("name", "category")  # Search bar
-    list_filter = ("category",)  # Sidebar filter
-    ordering = ("-price",)  # Order by price descending
+    list_display = ("name", "category", "price")
+    search_fields = ("name", "category")
+    list_filter = ("category",)
+    ordering = ("-price",)
 
 
 # Register your models here.

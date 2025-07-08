@@ -33,3 +33,4 @@ local_settings.py
 # Static and media files
 /static/
 /media/
+.env
